@@ -365,7 +365,8 @@ const translations = {
     }
 };
 
-// Export for use in other scripts
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = translations;
-}
+// Export as ES6 module
+export default translations;
+
+// Also make it available globally for compatibility
+window.translations = translations;
