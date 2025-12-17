@@ -1,0 +1,25 @@
+{
+  "name": "grow-pagina",
+  "version": "1.0.0",
+  "description": "Sitio web ultra-moderno y futurista para Grow Labs, empresa tecnológica especializada en soluciones de Inteligencia Artificial, automatización operativa y sistemas de gestión del conocimiento (RAG) para hospitales y clínicas en Latinoamérica.",
+  "main": "diagrams.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasmmg12/pagina.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasmmg12/pagina/issues"
+  },
+  "homepage": "https://github.com/lucasmmg12/pagina#readme",
+  "devDependencies": {
+    "vite": "^7.3.0"
+  }
+}
