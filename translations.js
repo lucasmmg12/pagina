@@ -92,9 +92,10 @@ const translations = {
             author1: "Sergio Femenia",
             role1: "Gerente Administrativo",
             institution1: "Sanatorio Argentino",
-            testimonial2: "La reducción en errores de facturación fue inmediata. El ROI se vio en el primer mes.",
-            author2: "Dra. María Rodríguez",
-            role2: "Directora General"
+            testimonial2: "El sistema de informes y reportes que desarrollaron para nuestros pacientes ha sido transformador. Ahora gestionamos todos los estudios de forma centralizada y la información le llega automáticamente al paciente, ahorrando tiempo y ganando eficiencia.",
+            author2: "Dr. Mariano Luna",
+            role2: "Cardiólogo",
+            institution2: "Centro Médico de Especialidades"
         },
         cta: {
             title: "¿Listo para transformar tu institución?",
@@ -211,9 +212,10 @@ const translations = {
             author1: "Sergio Femenia",
             role1: "Administrative Manager",
             institution1: "Sanatorio Argentino",
-            testimonial2: "The reduction in billing errors was immediate. We saw ROI in the first month.",
-            author2: "Dr. María Rodríguez",
-            role2: "General Director"
+            testimonial2: "The reports and information system they developed for our patients has been transformative. We now manage all studies centrally and information reaches patients automatically, saving time and gaining efficiency.",
+            author2: "Dr. Mariano Luna",
+            role2: "Cardiologist",
+            institution2: "Centro Médico de Especialidades"
         },
         cta: {
             title: "Ready to transform your institution?",
@@ -330,9 +332,10 @@ const translations = {
             author1: "Sergio Femenia",
             role1: "Gerente Administrativo",
             institution1: "Sanatorio Argentino",
-            testimonial2: "A redução nos erros de faturamento foi imediata. O ROI foi visível no primeiro mês.",
-            author2: "Dra. María Rodríguez",
-            role2: "Diretora Geral"
+            testimonial2: "O sistema de relatórios e informações que desenvolveram para nossos pacientes foi transformador. Agora gerenciamos todos os estudos de forma centralizada e a informação chega automaticamente ao paciente, economizando tempo e ganhando eficiência.",
+            author2: "Dr. Mariano Luna",
+            role2: "Cardiologista",
+            institution2: "Centro Médico de Especialidades"
         },
         cta: {
             title: "Pronto para transformar sua instituição?",
