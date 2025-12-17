@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="/src/main.js"></script>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
     <header class="header" id="header">
         <nav class="nav container">
             <div class="nav__logo">
-                <img src="public/logogrow.png" alt="Grow Labs Logo" width="40" height="40" style="border-radius: 8px;">
+                <img src="/logogrow.png" alt="Grow Labs Logo" width="40" height="40" style="border-radius: 8px;">
                 <span class="nav__logo-text">Grow Labs</span>
             </div>
 
@@ -417,7 +417,7 @@
                                     <div class="mac-title">Portal del Paciente</div>
                                 </div>
                                 <div class="mac-screen">
-                                    <img src="public/Portal.png" alt="Portal del Paciente">
+                                    <img src="/Portal.png" alt="Portal del Paciente">
                                 </div>
                             </div>
 
@@ -431,7 +431,7 @@
                                     <div class="mac-title">Portal de Cirugía</div>
                                 </div>
                                 <div class="mac-screen">
-                                    <img src="public/Cirugia.png" alt="Portal de Cirugía">
+                                    <img src="/Cirugia.png" alt="Portal de Cirugía">
                                 </div>
                             </div>
 
@@ -445,7 +445,7 @@
                                     <div class="mac-title">Portal de Consultas</div>
                                 </div>
                                 <div class="mac-screen">
-                                    <img src="public/Consulta.png" alt="Portal de Consultas">
+                                    <img src="/Consulta.png" alt="Portal de Consultas">
                                 </div>
                             </div>
                         </div>
@@ -524,7 +524,7 @@
             <div class="clients__grid">
                 <div class="client-card">
                     <div class="client-card__logo">
-                        <img src="public/images.png" alt="Sanatorio Argentino"
+                        <img src="/images.png" alt="Sanatorio Argentino"
                             style="max-width: 200px; height: auto; border-radius: 8px;">
                     </div>
                     <blockquote class="client-card__quote" data-i18n="clients.testimonial1">
@@ -540,16 +540,19 @@
 
                 <div class="client-card">
                     <div class="client-card__logo">
-                        <img src="public/centromedico.png" alt="Centro Médico de Especialidades"
+                        <img src="/centromedico.png" alt="Centro Médico de Especialidades"
                             style="max-width: 200px; height: auto; border-radius: 8px;">
                     </div>
                     <blockquote class="client-card__quote" data-i18n="clients.testimonial2">
-                        "El sistema de informes y reportes que desarrollaron para nuestros pacientes ha sido transformador. Ahora gestionamos todos los estudios de forma centralizada y la información le llega automáticamente al paciente, ahorrando tiempo y ganando eficiencia."
+                        "El sistema de informes y reportes que desarrollaron para nuestros pacientes ha sido
+                        transformador. Ahora gestionamos todos los estudios de forma centralizada y la información le
+                        llega automáticamente al paciente, ahorrando tiempo y ganando eficiencia."
                     </blockquote>
                     <div class="client-card__author">
                         <strong data-i18n="clients.author2">Dr. Mariano Luna</strong>
                         <span data-i18n="clients.role2">Cardiólogo</span>
-                        <span data-i18n="clients.institution2" class="client-institution">Centro Médico de Especialidades</span>
+                        <span data-i18n="clients.institution2" class="client-institution">Centro Médico de
+                            Especialidades</span>
                     </div>
                 </div>
             </div>
@@ -587,7 +590,7 @@
             <div class="footer__grid">
                 <div class="footer__brand">
                     <div class="footer__logo">
-                        <img src="public/logogrow.png" alt="Grow Labs Logo" width="40" height="40"
+                        <img src="/logogrow.png" alt="Grow Labs Logo" width="40" height="40"
                             style="border-radius: 8px;">
                         <span>Grow Labs</span>
                     </div>
@@ -650,9 +653,7 @@
         </div>
     </footer>
 
-    <script src="translations.js"></script>
-    <script src="diagrams.js"></script>
-    <script src="script.js"></script>
+
 </body>
 
 </html>
