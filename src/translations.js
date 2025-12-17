@@ -74,6 +74,10 @@ const translations = {
                 consultation: {
                     title: "💊 Portal de Consultas",
                     description: "Grabación automática de consultas que completa la historia clínica mientras el médico interactúa con el paciente. Potenciado con IA médica (OpenEvidence) para sugerir diagnósticos, cursos de acción e indicaciones precisas."
+                },
+                whatsapp: {
+                    title: "💬 Chatbot de WhatsApp con IA",
+                    description: "Chatbot inteligente que atiende a tus pacientes 24/7 como si fuera un humano. A diferencia de los chatbots tradicionales con árboles de opciones frustrantes, nuestro sistema usa IA conversacional para brindar atención personalizada, gestionar turnos y responder consultas con calidad y eficiencia excepcionales."
                 }
             },
             system: {
@@ -194,6 +198,10 @@ const translations = {
                 consultation: {
                     title: "💊 Consultation Portal",
                     description: "Automatic consultation recording that completes medical records while the doctor interacts with the patient. Powered by medical AI (OpenEvidence) to suggest diagnoses, courses of action, and precise indications."
+                },
+                whatsapp: {
+                    title: "💬 AI-Powered WhatsApp Chatbot",
+                    description: "Intelligent chatbot that serves your patients 24/7 like a human would. Unlike traditional chatbots with frustrating option trees, our system uses conversational AI to provide personalized attention, manage appointments, and answer queries with exceptional quality and efficiency."
                 }
             },
             system: {
@@ -314,6 +322,10 @@ const translations = {
                 consultation: {
                     title: "💊 Portal de Consultas",
                     description: "Gravação automática de consultas que completa o prontuário médico enquanto o médico interage com o paciente. Potencializado com IA médica (OpenEvidence) para sugerir diagnósticos, cursos de ação e indicações precisas."
+                },
+                whatsapp: {
+                    title: "💬 Chatbot de WhatsApp com IA",
+                    description: "Chatbot inteligente que atende seus pacientes 24/7 como se fosse um humano. Ao contrário dos chatbots tradicionais com árvores de opções frustrantes, nosso sistema usa IA conversacional para fornecer atenção personalizada, gerenciar consultas e responder perguntas com qualidade e eficiência excepcionais."
                 }
             },
             system: {
