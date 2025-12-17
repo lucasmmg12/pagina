@@ -1,0 +1,537 @@
+/* ============================================
+   NEW SECTIONS STYLES
+   ============================================ */
+
+/* Problems Section */
+.problems__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-xl);
+    margin-top: var(--spacing-3xl);
+}
+
+.problem-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-xl);
+    transition: all var(--transition-base);
+    position: relative;
+    overflow: hidden;
+}
+
+.problem-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-emerald));
+    transform: scaleX(0);
+    transition: transform var(--transition-base);
+}
+
+.problem-card:hover::before {
+    transform: scaleX(1);
+}
+
+.problem-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-green-lg);
+    border-color: var(--color-primary);
+}
+
+.problem-card__icon {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.problem-card__title {
+    font-size: 1.25rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-white);
+    margin-bottom: var(--spacing-sm);
+}
+
+.problem-card__description {
+    color: var(--color-gray-400);
+    line-height: 1.6;
+}
+
+/* Comparison Section */
+.comparison {
+    background: linear-gradient(180deg, transparent 0%, rgba(34, 197, 94, 0.05) 100%);
+}
+
+.comparison__table {
+    margin-top: var(--spacing-3xl);
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+}
+
+.comparison__header,
+.comparison__row {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    gap: var(--spacing-md);
+}
+
+.comparison__header {
+    background: rgba(34, 197, 94, 0.1);
+    padding: var(--spacing-lg);
+    font-weight: var(--font-weight-bold);
+}
+
+.comparison__row {
+    padding: var(--spacing-lg);
+    border-top: 1px solid rgba(34, 197, 94, 0.1);
+    transition: background var(--transition-base);
+}
+
+.comparison__row:hover {
+    background: rgba(34, 197, 94, 0.05);
+}
+
+.comparison__cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-gray-300);
+}
+
+.comparison__cell--feature {
+    justify-content: flex-start;
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-white);
+}
+
+.comparison__cell--highlight {
+    color: var(--color-primary-light);
+    font-weight: var(--font-weight-bold);
+}
+
+.comparison__badge {
+    background: linear-gradient(135deg, var(--color-primary), var(--color-emerald));
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-lg);
+    color: var(--color-white);
+    box-shadow: var(--shadow-green);
+}
+
+.comparison__check {
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.comparison__cross {
+    color: var(--color-gray-600);
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+/* ROI Calculator Section */
+.roi-calculator {
+    background: linear-gradient(180deg, rgba(34, 197, 94, 0.05) 0%, transparent 100%);
+}
+
+.section__subtitle {
+    text-align: center;
+    color: var(--color-gray-400);
+    font-size: 1.125rem;
+    max-width: 600px;
+    margin: var(--spacing-md) auto 0;
+}
+
+.roi-calculator__container {
+    margin-top: var(--spacing-3xl);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-3xl);
+    align-items: start;
+}
+
+.roi-calculator__inputs {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-2xl);
+}
+
+.input-group {
+    margin-bottom: var(--spacing-lg);
+}
+
+.input-group label {
+    display: block;
+    color: var(--color-gray-300);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: var(--spacing-sm);
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 0.875rem;
+    background: rgba(17, 24, 39, 0.8);
+    border: 1px solid rgba(34, 197, 94, 0.2);
+    border-radius: var(--radius-md);
+    color: var(--color-white);
+    font-size: 1rem;
+    transition: all var(--transition-base);
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.1);
+}
+
+.roi-calculator__results {
+    display: grid;
+    gap: var(--spacing-lg);
+}
+
+.roi-result-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-xl);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.roi-result-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-emerald));
+}
+
+.roi-result-card--loss::before {
+    background: linear-gradient(90deg, #EF4444, #DC2626);
+}
+
+.roi-result-card--yearly::before {
+    background: linear-gradient(90deg, #F59E0B, #D97706);
+}
+
+.roi-result-card--recovery::before {
+    background: linear-gradient(90deg, var(--color-primary), var(--color-emerald));
+}
+
+.roi-result-card__label {
+    color: var(--color-gray-400);
+    font-size: 0.875rem;
+    font-weight: var(--font-weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: var(--spacing-sm);
+}
+
+.roi-result-card__value {
+    font-size: 2.5rem;
+    font-weight: var(--font-weight-extrabold);
+    background: linear-gradient(135deg, var(--color-primary), var(--color-emerald-light));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: var(--spacing-xs);
+}
+
+.roi-result-card__note {
+    color: var(--color-gray-500);
+    font-size: 0.75rem;
+    font-style: italic;
+}
+
+/* How It Works Section */
+.steps__container {
+    margin-top: var(--spacing-3xl);
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: var(--spacing-md);
+    align-items: center;
+}
+
+.step-card {
+    grid-column: span 1;
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-xl);
+    text-align: center;
+    position: relative;
+    transition: all var(--transition-base);
+}
+
+.step-card:nth-child(odd) {
+    grid-column: span 2;
+}
+
+.step-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-green-lg);
+    border-color: var(--color-primary);
+}
+
+.step-card__number {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, var(--color-primary), var(--color-emerald));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: var(--font-weight-extrabold);
+    color: var(--color-white);
+    box-shadow: var(--shadow-green);
+}
+
+.step-card__icon {
+    font-size: 3rem;
+    margin: var(--spacing-md) 0;
+}
+
+.step-card__title {
+    font-size: 1.125rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-white);
+    margin-bottom: var(--spacing-sm);
+}
+
+.step-card__description {
+    color: var(--color-gray-400);
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+.step-arrow {
+    font-size: 2rem;
+    color: var(--color-primary);
+    text-align: center;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+/* Guarantee Section */
+.guarantee {
+    background: linear-gradient(180deg, transparent 0%, rgba(34, 197, 94, 0.05) 50%, transparent 100%);
+}
+
+.guarantee__card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    border: 2px solid var(--color-primary);
+    border-radius: var(--radius-2xl);
+    padding: var(--spacing-3xl);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: var(--shadow-green-lg);
+}
+
+.guarantee__card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(34, 197, 94, 0.1) 0%, transparent 70%);
+    animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.guarantee__badge {
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-lg);
+    position: relative;
+    z-index: 1;
+}
+
+.guarantee__title {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: var(--font-weight-extrabold);
+    background: linear-gradient(135deg, var(--color-white), var(--color-primary-light));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: var(--spacing-lg);
+    position: relative;
+    z-index: 1;
+}
+
+.guarantee__description {
+    color: var(--color-gray-300);
+    font-size: 1.125rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto var(--spacing-xl);
+    position: relative;
+    z-index: 1;
+}
+
+.guarantee__features {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-xl);
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+}
+
+.guarantee__feature {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    color: var(--color-gray-300);
+    font-weight: var(--font-weight-semibold);
+}
+
+.guarantee__check {
+    color: var(--color-primary);
+    font-size: 1.5rem;
+}
+
+/* FAQ Section */
+.faq__container {
+    margin-top: var(--spacing-3xl);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.faq-item {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-xl);
+    margin-bottom: var(--spacing-md);
+    overflow: hidden;
+    transition: all var(--transition-base);
+}
+
+.faq-item:hover {
+    border-color: var(--color-primary);
+    box-shadow: var(--shadow-green);
+}
+
+.faq-item__question {
+    width: 100%;
+    padding: var(--spacing-lg);
+    background: none;
+    border: none;
+    color: var(--color-white);
+    font-size: 1.125rem;
+    font-weight: var(--font-weight-semibold);
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all var(--transition-base);
+}
+
+.faq-item__question:hover {
+    color: var(--color-primary-light);
+}
+
+.faq-item__icon {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+    transition: transform var(--transition-base);
+}
+
+.faq-item.active .faq-item__icon {
+    transform: rotate(45deg);
+}
+
+.faq-item__answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height var(--transition-slow);
+}
+
+.faq-item.active .faq-item__answer {
+    max-height: 500px;
+}
+
+.faq-item__answer p {
+    padding: 0 var(--spacing-lg) var(--spacing-lg);
+    color: var(--color-gray-400);
+    line-height: 1.8;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .roi-calculator__container {
+        grid-template-columns: 1fr;
+    }
+
+    .steps__container {
+        grid-template-columns: 1fr;
+    }
+
+    .step-card,
+    .step-card:nth-child(odd) {
+        grid-column: span 1;
+    }
+
+    .step-arrow {
+        transform: rotate(90deg);
+    }
+
+    .comparison__header,
+    .comparison__row {
+        grid-template-columns: 1fr;
+    }
+
+    .comparison__cell {
+        padding: var(--spacing-sm) 0;
+    }
+
+    .comparison__cell--feature {
+        font-weight: var(--font-weight-bold);
+        border-bottom: 1px solid rgba(34, 197, 94, 0.2);
+        padding-bottom: var(--spacing-sm);
+        margin-bottom: var(--spacing-sm);
+    }
+}
+
+@media (max-width: 768px) {
+    .problems__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .guarantee__features {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
