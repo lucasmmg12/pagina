@@ -5,6 +5,7 @@
 const translations = {
     es: {
         nav: {
+            home: "Inicio",
             about: "Nosotros",
             solutions: "Soluciones",
             clients: "Clientes",
@@ -297,7 +298,8 @@ const translations = {
     },
     en: {
         nav: {
-            about: "About",
+            home: "Home",
+            about: "About Us",
             solutions: "Solutions",
             clients: "Clients",
             cta: "Schedule Demo"
@@ -592,6 +594,7 @@ const translations = {
     },
     pt: {
         nav: {
+            home: "Início",
             about: "Sobre Nós",
             solutions: "Soluções",
             clients: "Clientes",
