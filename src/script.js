@@ -489,8 +489,26 @@ function initFAQ() {
     });
 }
 
+// Initialize language handling
+function initLanguage() {
+    // Set initial language from storage or default
+    const storedLang = localStorage.getItem('preferredLanguage') || 'es';
+    setLanguage(storedLang);
+
+    // Add click listeners to buttons
+    document.querySelectorAll('.lang-btn, .lang-btn-footer').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const lang = btn.getAttribute('data-lang');
+            setLanguage(lang);
+        });
+    });
+}
+
 // Initialize when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
+    initNavigation();
+    initSolutionTabs();
+    initLanguage();
     initROICalculator();
     initFAQ();
 });

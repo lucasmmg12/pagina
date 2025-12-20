@@ -43,6 +43,7 @@ const translations = {
             tab2: "RAG Institucional",
             tab3: "Aplicaciones Digitales",
             tab4: "Sistema Integral",
+            tab5: "Análisis de Datos",
             cta: "💬 Chatea con nosotros",
             details: "Ver Detalle",
             impact_title: "Impacto Medible",
@@ -189,6 +190,39 @@ const translations = {
                     stat2: { value: "+15%", label: "Incremento en facturación neta" },
                     stat3: { value: "Total", label: "Control administrativo" }
                 }
+            },
+            data_analytics: {
+                title: "Análisis de Datos e Inteligencia de Negocios",
+                description: "Transforma los datos generados por tu institución en ventajas competitivas. Detecta fugas financieras y asegura el cumplimiento de tus objetivos estratégicos.",
+                feature1: "Detección de fugas financieras (ej: cirugías canceladas)",
+                feature2: "Tableros de control de objetivos (KPIs y OKRs)",
+                feature3: "Identificación de ventajas competitivas",
+                feature4: "Toma de decisiones basada en evidencia",
+                hero: {
+                    tag: "Detalle de Solución",
+                    title: "Análisis de Datos y BI",
+                    subtitle: "Deja de conducir a ciegas. Visualiza fugas de dinero, optimiza recursos y alcanza tus objetivos estratégicos con datos reales.",
+                    cta: "Ver Tableros de Ejemplo"
+                },
+                cards: {
+                    card1: {
+                        title: "📉 Detección de Fugas Financieras",
+                        description: "Identifica exactamente cuánto dinero pierdes por cirugías canceladas, quirófanos ociosos o errores de facturación. Convierte pérdidas invisibles en ganancias recuperadas."
+                    },
+                    card2: {
+                        title: "🎯 Seguimiento de Objetivos (OKRs)",
+                        description: "No basta con operar, hay que crecer. Define metas claras para tu institución y monitorea su cumplimiento en tiempo real con tableros ejecutivos."
+                    },
+                    card3: {
+                        title: "🧠 Ventaja Competitiva",
+                        description: "Analiza tiempos de espera, satisfacción del paciente y rendimiento médico para destacar tu servicio por encima de la competencia."
+                    }
+                },
+                stats: {
+                    stat1: { value: "+20%", label: "Rentabilidad por optimización" },
+                    stat2: { value: "100%", label: "Visibilidad financiera" },
+                    stat3: { value: "Claridad", label: "En toma de decisiones" }
+                }
             }
         },
         packages: {
@@ -301,6 +335,7 @@ const translations = {
             tab2: "Institutional RAG",
             tab3: "Digital Applications",
             tab4: "Integrated System",
+            tab5: "Data Analytics",
             cta: "💬 Chat with us",
             details: "View Details",
             impact_title: "Measurable Impact",
@@ -447,6 +482,39 @@ const translations = {
                     stat2: { value: "+15%", label: "Increase in net billing" },
                     stat3: { value: "Total", label: "Administrative control" }
                 }
+            },
+            data_analytics: {
+                title: "Data Analytics & Business Intelligence",
+                description: "Turn your institution's data into competitive advantages. Detect financial leaks and ensure strategic goal compliance.",
+                feature1: "Financial leak detection (e.g., cancelled surgeries)",
+                feature2: "Goal tracking dashboards (KPIs and OKRs)",
+                feature3: "Competitive advantage identification",
+                feature4: "Evidence-based decision making",
+                hero: {
+                    tag: "Solution Detail",
+                    title: "Data Analytics & BI",
+                    subtitle: "Stop driving blind. Visualize money leaks, optimize resources, and achieve your strategic goals with real data.",
+                    cta: "View Example Dashboards"
+                },
+                cards: {
+                    card1: {
+                        title: "📉 Financial Leak Detection",
+                        description: "Identify exactly how much money you lose from cancelled surgeries, idle operating rooms, or billing errors. Turn invisible losses into recovered profits."
+                    },
+                    card2: {
+                        title: "🎯 Goal Tracking (OKRs)",
+                        description: "It's not enough to operate; you must grow. Define clear goals for your institution and monitor compliance in real-time with executive dashboards."
+                    },
+                    card3: {
+                        title: "🧠 Competitive Advantage",
+                        description: "Analyze wait times, patient satisfaction, and medical performance to make your service stand out from the competition."
+                    }
+                },
+                stats: {
+                    stat1: { value: "+20%", label: "Profitability via optimization" },
+                    stat2: { value: "100%", label: "Financial visibility" },
+                    stat3: { value: "Clarity", label: "In decision making" }
+                }
             }
         },
         packages: {
@@ -460,7 +528,8 @@ const translations = {
                 feature1: "24/7 AI Intelligent Chatbot",
                 feature2: "Patient Portal (App)",
                 feature3: "Automated Invoice Upload",
-                feature4: "WhatsApp Appointment Reminders"
+                feature4: "WhatsApp Appointment Reminders",
+                feature5: "Monthly Operativity Reports"
             },
             level2: {
                 title: "Medical Management 360",
@@ -469,7 +538,8 @@ const translations = {
                 feature2: "Automatic Fee Settlement",
                 feature3: "Doctor Portal",
                 feature4: "Surgery & Consultation Portal",
-                feature5: "Priority Support"
+                feature5: "BI Dashboards (Leaks & Cancellations)",
+                feature6: "Priority Support"
             },
             level3: {
                 title: "Financial Intelligence",
@@ -478,7 +548,8 @@ const translations = {
                 feature2: "Preventive Audit (Anti-Debits)",
                 feature3: "Automatic Agreement Manager",
                 feature4: "Real-Time ROI Reports",
-                feature5: "dedicated VIP Support"
+                feature5: "Strategic Goal Management (OKRs)",
+                feature6: "dedicated VIP Support"
             }
         },
         clients: {
@@ -559,6 +630,7 @@ const translations = {
             tab2: "RAG Institucional",
             tab3: "Aplicações Digitais",
             tab4: "Sistema Integral",
+            tab5: "Análise de Dados",
             cta: "💬 Converse conosco",
             details: "Ver Detalhes",
             impact_title: "Impacto Mensurável",
@@ -705,6 +777,39 @@ const translations = {
                     stat2: { value: "+15%", label: "Aumento no faturamento líquido" },
                     stat3: { value: "Total", label: "Controle administrativo" }
                 }
+            },
+            data_analytics: {
+                title: "Análise de Dados e Business Intelligence",
+                description: "Transforme os dados gerados por sua instituição em vantagens competitivas. Detecte vazamentos financeiros e garanta o cumprimento de seus objetivos estratégicos.",
+                feature1: "Detecção de vazamentos financeiros (ex: cirurgias canceladas)",
+                feature2: "Painéis de controle de objetivos (KPIs e OKRs)",
+                feature3: "Identificação de vantagens competitivas",
+                feature4: "Tomada de decisão baseada em evidências",
+                hero: {
+                    tag: "Detalhe da Solução",
+                    title: "Análise de Dados e BI",
+                    subtitle: "Pare de dirigir às cegas. Visualize vazamentos de dinheiro, otimize recursos e alcance seus objetivos estratégicos com dados reais.",
+                    cta: "Ver Painéis de Exemplo"
+                },
+                cards: {
+                    card1: {
+                        title: "📉 Detecção de Vazamentos Financeiros",
+                        description: "Identifique exatamente quanto dinheiro você perde por cirurgias canceladas, salas de cirurgia ociosas ou erros de faturamento. Converta perdas invisíveis em lucros recuperados."
+                    },
+                    card2: {
+                        title: "🎯 Monitoramento de Objetivos (OKRs)",
+                        description: "Não basta operar, é preciso crescer. Defina metas claras para sua instituição e monitore o cumprimento em tempo real com painéis executivos."
+                    },
+                    card3: {
+                        title: "🧠 Vantagem Competitiva",
+                        description: "Analise tempos de espera, satisfação do paciente e desempenho médico para destacar seu serviço acima da concorrência."
+                    }
+                },
+                stats: {
+                    stat1: { value: "+20%", label: "Rentabilidade por otimização" },
+                    stat2: { value: "100%", label: "Visibilidade financeira" },
+                    stat3: { value: "Clareza", label: "Na tomada de decisões" }
+                }
             }
         },
         packages: {
@@ -718,7 +823,8 @@ const translations = {
                 feature1: "Chatbot Inteligente IA 24/7",
                 feature2: "Portal do Paciente (App)",
                 feature3: "Automação de Carga de Faturas",
-                feature4: "Lembretes de Consultas WhatsApp"
+                feature4: "Lembretes de Consultas WhatsApp",
+                feature5: "Relatórios Mensais de Operatividade"
             },
             level2: {
                 title: "Gestão Médica 360",
@@ -727,7 +833,8 @@ const translations = {
                 feature2: "Liquidação Automática de Honorários",
                 feature3: "Portal do Médico",
                 feature4: "Portal de Cirurgia e Consultas",
-                feature5: "Suporte Prioritário"
+                feature5: "Painéis BI de Vazamentos e Cancelamentos",
+                feature6: "Suporte Prioritário"
             },
             level3: {
                 title: "Inteligência Financeira",
@@ -736,7 +843,8 @@ const translations = {
                 feature2: "Auditoria Preventiva (Anti-Débitos)",
                 feature3: "Gestor Automático de Convênios",
                 feature4: "Relatórios de ROI em Tempo Real",
-                feature5: "Suporte VIP Dedicado"
+                feature5: "Gestão Estratégica de Objetivos (OKRs)",
+                feature6: "Suporte VIP Dedicado"
             }
         },
         clients: {
