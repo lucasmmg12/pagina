@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatizaciones - Grow Labs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script type="module" src="../src/main.js"></script>
+</head>
+
+<body>
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <a href="../index.html"
+                    style="display: flex; align-items: center; gap: 0.5rem; text-decoration: none; color: inherit;">
+                    <img src="../logogrow.png" alt="Grow Labs Logo" width="40" height="40" style="border-radius: 8px;">
+                    <span class="nav__logo-text">Grow Labs</span>
+                </a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="../index.html#nosotros" class="nav__link" data-i18n="nav.about">Nosotros</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html#soluciones" class="nav__link" data-i18n="nav.solutions">Soluciones</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html#clientes" class="nav__link" data-i18n="nav.clients">Clientes</a>
+                    </li>
+                </ul>
+
+                <div class="nav__actions">
+                    <div class="language-selector">
+                        <button class="lang-btn active" data-lang="es">ES</button>
+                        <button class="lang-btn" data-lang="en">EN</button>
+                        <button class="lang-btn" data-lang="pt">PT</button>
+                    </div>
+                    <a href="https://cal.com/lucas-marinero-ji1yyg/15min" target="_blank" class="btn btn--primary"
+                        data-i18n="nav.cta">Agendar Demo</a>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Solution Hero -->
+        <section class="hero hero--solution">
+            <div class="hero__background">
+                <div class="hero__grid"></div>
+                <div class="hero__particles"></div>
+            </div>
+            <div class="container hero__content">
+                <div class="hero__text">
+                    <span class="section__tag" data-i18n="solutions.automation.hero.tag">Detalle de Solución</span>
+                    <h1 class="hero__title" data-i18n="solutions.automation.hero.title">Automatización de Procesos
+                        Administrativos</h1>
+                    <p class="hero__subtitle" data-i18n="solutions.automation.hero.subtitle">Elimina tareas repetitivas,
+                        reduce errores humanos y libera a tu equipo
+                        para lo que realmente importa: la atención al paciente.</p>
+                    <div class="hero__cta">
+                        <a href="https://cal.com/lucas-marinero-ji1yyg/15min" target="_blank"
+                            class="btn btn--primary btn--large" data-i18n="solutions.automation.hero.cta">Solicitar
+                            Auditoría de Procesos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Deep Dive Section -->
+        <section class="section">
+            <div class="container">
+                <div class="solutions__grid">
+                    <div class="solution-card">
+                        <h3 class="solution-card__title" data-i18n="solutions.automation.cards.card1.title">🤖 Carga
+                            Automática de Facturas</h3>
+                        <p class="solution-card__description" data-i18n="solutions.automation.cards.card1.description">
+                            Nuestro sistema procesa facturas de proveedores automáticamente, extrayendo datos clave
+                            (CAE, montos, fechas) e ingresándolos en tu ERP sin intervención humana.
+                        </p>
+                    </div>
+                    <div class="solution-card">
+                        <h3 class="solution-card__title" data-i18n="solutions.automation.cards.card2.title">📅 Gestión
+                            de Turnos por WhatsApp</h3>
+                        <p class="solution-card__description" data-i18n="solutions.automation.cards.card2.description">
+                            Confirmación, re-programación y cancelación de turnos automática. Reduce el ausentismo hasta
+                            en un 40% y llena huecos de agenda al instante.
+                        </p>
+                    </div>
+                    <div class="solution-card">
+                        <h3 class="solution-card__title" data-i18n="solutions.automation.cards.card3.title">💰
+                            Liquidación de Honorarios Médicos</h3>
+                        <p class="solution-card__description" data-i18n="solutions.automation.cards.card3.description">
+                            Calcula automáticamente lo que corresponde a cada profesional según las reglas de negocio de
+                            tu institución, eliminando disputas y ahorrando días de trabajo administrativo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ROI / Impact -->
+        <section class="section">
+            <div class="container text-center">
+                <h2 class="section__title" data-i18n="solutions.impact_title">Impacto Medible</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number" data-i18n="solutions.automation.stats.stat1.value">90%</div>
+                        <div class="stat-label" data-i18n="solutions.automation.stats.stat1.label">Reducción de tiempo
+                            en carga de datos</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-i18n="solutions.automation.stats.stat2.value">0%</div>
+                        <div class="stat-label" data-i18n="solutions.automation.stats.stat2.label">Errores de tipeo en
+                            facturación</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-i18n="solutions.automation.stats.stat3.value">+25%</div>
+                        <div class="stat-label" data-i18n="solutions.automation.stats.stat3.label">Recupero de horas
+                            hombre mensuales</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__grid">
+            <div class="footer__brand">
+                <div class="footer__logo">
+                    <img src="../logogrow.png" alt="Grow Labs" width="30" height="30">
+                    <span>Grow Labs</span>
+                </div>
+                <p class="footer__tagline" data-i18n="footer.tagline">El cerebro digital para instituciones de salud</p>
+            </div>
+            <div class="footer__links">
+                <h4 class="footer__title" data-i18n="footer.links.title">Links</h4>
+                <a href="../index.html#nosotros" data-i18n="footer.links.about">Nosotros</a>
+                <a href="../index.html#soluciones" data-i18n="footer.links.solutions">Soluciones</a>
+                <a href="../index.html#clientes" data-i18n="footer.links.clients">Clientes</a>
+            </div>
+            <div class="footer__legal">
+                <h4 class="footer__title" data-i18n="footer.legal.title">Legal</h4>
+                <a href="#" data-i18n="footer.legal.privacy">Privacidad</a>
+                <a href="#" data-i18n="footer.legal.terms">Términos</a>
+            </div>
+        </div>
+        <div class="container footer__bottom">
+            <p data-i18n="footer.rights">© 2024 Grow Labs. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

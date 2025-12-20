@@ -1,5 +1,6 @@
 // Main entry point for Vite
 import './styles.css';
+import '../new-sections-styles.css';
 import translations from './translations.js';
 import './diagrams.js';
 import './script.js';

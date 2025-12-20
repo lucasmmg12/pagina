@@ -44,13 +44,40 @@ const translations = {
             tab3: "Aplicaciones Digitales",
             tab4: "Sistema Integral",
             cta: "💬 Chatea con nosotros",
+            details: "Ver Detalle",
+            impact_title: "Impacto Medible",
             automation: {
                 title: "Módulos de Automatizaciones",
                 description: "Elimina tareas repetitivas y propensas a errores. Nuestros módulos automatizan procesos administrativos complejos, reducen tiempos de gestión y liberan a tu equipo para que se enfoque en tareas de alto valor estratégico.",
                 feature1: "Automatización de procesos administrativos complejos",
                 feature2: "Reducción del 90% en tiempo de gestión manual",
                 feature3: "Eliminación de errores humanos en tareas repetitivas",
-                feature4: "Integración perfecta con sistemas existentes"
+                feature4: "Integración perfecta con sistemas existentes",
+                hero: {
+                    tag: "Detalle de Solución",
+                    title: "Automatización de Procesos Administrativos",
+                    subtitle: "Elimina tareas repetitivas, reduce errores humanos y libera a tu equipo para lo que realmente importa: la atención al paciente.",
+                    cta: "Solicitar Auditoría de Procesos"
+                },
+                cards: {
+                    card1: {
+                        title: "🤖 Carga Automática de Facturas",
+                        description: "Nuestro sistema procesa facturas de proveedores automáticamente, extrayendo datos clave (CAE, montos, fechas) e ingresándolos en tu ERP sin intervención humana."
+                    },
+                    card2: {
+                        title: "📅 Gestión de Turnos por WhatsApp",
+                        description: "Confirmación, re-programación y cancelación de turnos automática. Reduce el ausentismo hasta en un 40% y llena huecos de agenda al instante."
+                    },
+                    card3: {
+                        title: "💰 Liquidación de Honorarios Médicos",
+                        description: "Calcula automáticamente lo que corresponde a cada profesional según las reglas de negocio de tu institución, eliminando disputas y ahorrando días de trabajo administrativo."
+                    }
+                },
+                stats: {
+                    stat1: { value: "90%", label: "Reducción de tiempo en carga de datos" },
+                    stat2: { value: "0%", label: "Errores de tipeo en facturación" },
+                    stat3: { value: "+25%", label: "Recupero de horas hombre mensuales" }
+                }
             },
             rag: {
                 title: "RAG Institucional",
@@ -58,7 +85,32 @@ const translations = {
                 feature1: "Búsqueda instantánea en toda la documentación",
                 feature2: "Respuestas contextualizadas con fuentes verificadas",
                 feature3: "De horas de búsqueda a segundos de respuesta",
-                feature4: "Actualización continua del conocimiento"
+                feature4: "Actualización continua del conocimiento",
+                hero: {
+                    tag: "Detalle de Solución",
+                    title: "RAG Institucional (Base de Conocimiento IA)",
+                    subtitle: "Tu institución tiene miles de documentos y protocolos. RAG permite 'chatear' con ellos para obtener respuestas precisas en segundos.",
+                    cta: "Ver Demo en Vivo"
+                },
+                cards: {
+                    card1: {
+                        title: "📚 Búsqueda Semántica de Protocolos",
+                        description: "Los médicos y enfermeros pueden preguntar '¿Cuál es el protocolo para neumonía bacteriana?' y obtener la respuesta exacta basada en TU documentación interna, no en Google."
+                    },
+                    card2: {
+                        title: "⚖️ Normativas y Vademécum",
+                        description: "Acceso instantáneo a coberturas de obras sociales, vademécums actualizados y normativas institucionales. Reduce errores de facturación por desconocimiento de normas."
+                    },
+                    card3: {
+                        title: "🚀 Onboarding de Personal",
+                        description: "Acelera la capacitación de nuevos empleados permitiéndoles resolver sus dudas operativas interactuando con la IA de la institución."
+                    }
+                },
+                stats: {
+                    stat1: { value: "95%", label: "Más rápido encontrando información" },
+                    stat2: { value: "100%", label: "Adherencia a protocolos actualizados" },
+                    stat3: { value: "24/7", label: "Disponibilidad del conocimiento" }
+                }
             },
             apps: {
                 title: "Aplicaciones Digitales para el Sanatorio",
@@ -78,6 +130,31 @@ const translations = {
                 whatsapp: {
                     title: "💬 Chatbot de WhatsApp con IA",
                     description: "Chatbot inteligente que atiende a tus pacientes 24/7 como si fuera un humano. A diferencia de los chatbots tradicionales con árboles de opciones frustrantes, nuestro sistema usa IA conversacional para brindar atención personalizada, gestionar turnos y responder consultas con calidad y eficiencia excepcionales."
+                },
+                hero: {
+                    tag: "Detalle de Solución",
+                    title: "Aplicaciones Digitales (Apps)",
+                    subtitle: "Conectamos pacientes, médicos y administrativos en un ecosistema fluido. Apps nativas y web para modernizar la experiencia de tu sanatorio.",
+                    cta: "Ver Catálogo de Apps"
+                },
+                cards: {
+                    card1: {
+                        title: "📱 Portal del Paciente",
+                        description: "Tus pacientes merecen accesibilidad. Turnos online, descarga de estudios, historial clínico y notificaciones automáticas en su bolsillo."
+                    },
+                    card2: {
+                        title: "🏥 Portal de Cirugía",
+                        description: "Gestión integral del bloque quirúrgico. Programación de cirugías, check-list de seguridad, documentación pre-quirúrgica y monitoreo de quirófanos en tiempo real."
+                    },
+                    card3: {
+                        title: "🩺 Portal de Médicos",
+                        description: "Acceso remoto a historias clínicas, agenda de turnos, liquidación de honorarios y comunicación directa con administración."
+                    }
+                },
+                stats: {
+                    stat1: { value: "+40%", label: "Retención de pacientes" },
+                    stat2: { value: "30%", label: "Reducción de ausentismo en turnos" },
+                    stat3: { value: "100%", label: "Trazabilidad en cirugías" }
                 }
             },
             system: {
@@ -86,7 +163,64 @@ const translations = {
                 feature1: "Integración total de áreas operativas y clínicas",
                 feature2: "Eliminación de fugas en facturación",
                 feature3: "Reducción drástica de débitos de obras sociales",
-                feature4: "ROI medible y transparente"
+                feature4: "ROI medible y transparente",
+                hero: {
+                    tag: "Detalle de Solución",
+                    title: "Sistema Integral (All-in-One)",
+                    subtitle: "La transformación digital completa bajo un mismo techo. Centraliza, automatiza y optimiza cada aspecto de tu institución de salud.",
+                    cta: "Consultar Plan Integral"
+                },
+                cards: {
+                    card1: {
+                        title: "📡 Interoperabilidad Total",
+                        description: "Conecta tu HIS, LIS, RIS y PACS en una sola plataforma unificada. Elimina los silos de información y ten una visión 360 del paciente."
+                    },
+                    card2: {
+                        title: "📊 Business Intelligence (BI)",
+                        description: "Tableros de control en tiempo real para la dirección médica y administrativa. Toma decisiones basadas en datos reales de ocupación, facturación y costos."
+                    },
+                    card3: {
+                        title: "🛡️ Seguridad y Auditoría",
+                        description: "Trazabilidad completa de cada acción en el sistema. Cumplimiento de normas de privacidad de datos de salud y auditoría preventiva de facturación."
+                    }
+                },
+                stats: {
+                    stat1: { value: "360°", label: "Visión operativa" },
+                    stat2: { value: "+15%", label: "Incremento en facturación neta" },
+                    stat3: { value: "Total", label: "Control administrativo" }
+                }
+            }
+        },
+        packages: {
+            tag: "Nuestros Planes",
+            title: "Escala tu Inteligencia Operativa",
+            subtitle: "Soluciones adaptadas a cada etapa de crecimiento de tu institución.",
+            cta: "Consultar Precio",
+            level1: {
+                title: "Eficiencia Operativa",
+                subtitle: "Pacientes felices + Administración ágil",
+                feature1: "Chatbot Inteligente IA 24/7",
+                feature2: "Portal del Paciente (App)",
+                feature3: "Automatización Carga Facturas",
+                feature4: "Recordatorios Turnos WhatsApp"
+            },
+            level2: {
+                title: "Gestión Médica 360",
+                subtitle: "Médicos contentos + Procesos eficientes",
+                feature1: "Todo lo del Nivel Eficiencia",
+                feature2: "Liquidación Automática Honorarios",
+                feature3: "Portal de Médicos",
+                feature4: "Portal Cirugía y Consultas",
+                feature5: "Soporte Prioritario"
+            },
+            level3: {
+                title: "Inteligencia Financiera",
+                subtitle: "Blindaje de ingresos + Protección inflación",
+                feature1: "Todo lo del Nivel Gestión Médica",
+                feature2: "Auditoría Preventiva (Anti-Débitos)",
+                feature3: "Gestor Automático de Convenios",
+                feature4: "Reportes de ROI en Tiempo Real",
+                feature5: "Soporte VIP Dedicado"
             }
         },
         clients: {
@@ -168,13 +302,40 @@ const translations = {
             tab3: "Digital Applications",
             tab4: "Integrated System",
             cta: "💬 Chat with us",
+            details: "View Details",
+            impact_title: "Measurable Impact",
             automation: {
                 title: "Automation Modules",
                 description: "Eliminate repetitive and error-prone tasks. Our modules automate complex administrative processes, reduce management time, and free your team to focus on high-value strategic tasks.",
                 feature1: "Automation of complex administrative processes",
                 feature2: "90% reduction in manual management time",
                 feature3: "Elimination of human errors in repetitive tasks",
-                feature4: "Seamless integration with existing systems"
+                feature4: "Seamless integration with existing systems",
+                hero: {
+                    tag: "Solution Detail",
+                    title: "Administrative Process Automation",
+                    subtitle: "Eliminate repetitive tasks, reduce human errors, and free your team for what truly matters: patient care.",
+                    cta: "Request Process Audit"
+                },
+                cards: {
+                    card1: {
+                        title: "🤖 Automatic Invoice Loading",
+                        description: "Our system processes supplier invoices automatically, extracting key data (CAE, amounts, dates) and entering it into your ERP without human intervention."
+                    },
+                    card2: {
+                        title: "📅 WhatsApp Appointment Management",
+                        description: "Automatic confirmation, rescheduling, and cancellation. Reduces absenteeism by up to 40% and fills schedule gaps instantly."
+                    },
+                    card3: {
+                        title: "💰 Medical Fee Settlement",
+                        description: "Automatically calculates what corresponds to each professional according to your institution's business rules, eliminating disputes and saving days of administrative work."
+                    }
+                },
+                stats: {
+                    stat1: { value: "90%", label: "Reduction in data entry time" },
+                    stat2: { value: "0%", label: "Typing errors in billing" },
+                    stat3: { value: "+25%", label: "Recovery of monthly man-hours" }
+                }
             },
             rag: {
                 title: "Institutional RAG",
@@ -182,7 +343,32 @@ const translations = {
                 feature1: "Instant search across all documentation",
                 feature2: "Contextualized answers with verified sources",
                 feature3: "From hours of searching to seconds of response",
-                feature4: "Continuous knowledge updates"
+                feature4: "Continuous knowledge updates",
+                hero: {
+                    tag: "Solution Detail",
+                    title: "Institutional RAG (AI Knowledge Base)",
+                    subtitle: "Your institution has thousands of documents and protocols. RAG allows you to 'chat' with them to get precise answers in seconds.",
+                    cta: "View Live Demo"
+                },
+                cards: {
+                    card1: {
+                        title: "📚 Semantic Protocol Search",
+                        description: "Doctors and nurses can ask 'What is the protocol for bacterial pneumonia?' and get the exact answer based on YOUR internal documentation, not Google."
+                    },
+                    card2: {
+                        title: "⚖️ Regulations & Formulary",
+                        description: "Instant access to insurance coverage, updated formularies, and institutional regulations. Reduces billing errors due to lack of knowledge of rules."
+                    },
+                    card3: {
+                        title: "🚀 Staff Onboarding",
+                        description: "Accelerates new employee training by allowing them to resolve operational doubts by interacting with the institution's AI."
+                    }
+                },
+                stats: {
+                    stat1: { value: "95%", label: "Faster information retrieval" },
+                    stat2: { value: "100%", label: "Adherence to updated protocols" },
+                    stat3: { value: "24/7", label: "Knowledge availability" }
+                }
             },
             apps: {
                 title: "Digital Applications for Healthcare",
@@ -202,6 +388,31 @@ const translations = {
                 whatsapp: {
                     title: "💬 AI-Powered WhatsApp Chatbot",
                     description: "Intelligent chatbot that serves your patients 24/7 like a human would. Unlike traditional chatbots with frustrating option trees, our system uses conversational AI to provide personalized attention, manage appointments, and answer queries with exceptional quality and efficiency."
+                },
+                hero: {
+                    tag: "Solution Detail",
+                    title: "Digital Applications (Apps)",
+                    subtitle: "We connect patients, doctors, and administrators in a fluid ecosystem. Native and web apps to modernize your sanatorium's experience.",
+                    cta: "View App Catalog"
+                },
+                cards: {
+                    card1: {
+                        title: "📱 Patient Portal",
+                        description: "Your patients deserve accessibility. Online appointments, study downloads, medical history, and automatic notifications in their pocket."
+                    },
+                    card2: {
+                        title: "🏥 Surgery Portal",
+                        description: "Comprehensive management of the surgical block. Surgery scheduling, safety checklists, pre-surgical documentation, and real-time operating room monitoring."
+                    },
+                    card3: {
+                        title: "🩺 Doctor Portal",
+                        description: "Remote access to medical records, appointment schedules, fee settlements, and direct communication with administration."
+                    }
+                },
+                stats: {
+                    stat1: { value: "+40%", label: "Patient retention" },
+                    stat2: { value: "30%", label: "Reduction in appointment absenteeism" },
+                    stat3: { value: "100%", label: "Traceability in surgeries" }
                 }
             },
             system: {
@@ -210,7 +421,64 @@ const translations = {
                 feature1: "Total integration of operational and clinical areas",
                 feature2: "Elimination of billing leaks",
                 feature3: "Drastic reduction in insurance charge-backs",
-                feature4: "Measurable and transparent ROI"
+                feature4: "Measurable and transparent ROI",
+                hero: {
+                    tag: "Solution Detail",
+                    title: "Integrated System (All-in-One)",
+                    subtitle: "Complete digital transformation under one roof. Centralize, automate, and optimize every aspect of your healthcare institution.",
+                    cta: "Consult Integral Plan"
+                },
+                cards: {
+                    card1: {
+                        title: "📡 Total Interoperability",
+                        description: "Connect your HIS, LIS, RIS, and PACS into a single unified platform. Eliminate information silos and have a 360 view of the patient."
+                    },
+                    card2: {
+                        title: "📊 Business Intelligence (BI)",
+                        description: "Real-time dashboards for medical and administrative direction. Make decisions based on real occupancy, billing, and cost data."
+                    },
+                    card3: {
+                        title: "🛡️ Security & Audit",
+                        description: "Complete traceability of every action in the system. Compliance with health data privacy regulations and preventive billing audit."
+                    }
+                },
+                stats: {
+                    stat1: { value: "360°", label: "Operational vision" },
+                    stat2: { value: "+15%", label: "Increase in net billing" },
+                    stat3: { value: "Total", label: "Administrative control" }
+                }
+            }
+        },
+        packages: {
+            tag: "Our Plans",
+            title: "Scale Your Operational Intelligence",
+            subtitle: "Solutions adapted to every stage of your institution's growth.",
+            cta: "Check Price",
+            level1: {
+                title: "Operational Efficiency",
+                subtitle: "Happy patients + Agile administration",
+                feature1: "24/7 AI Intelligent Chatbot",
+                feature2: "Patient Portal (App)",
+                feature3: "Automated Invoice Upload",
+                feature4: "WhatsApp Appointment Reminders"
+            },
+            level2: {
+                title: "Medical Management 360",
+                subtitle: "Happy doctors + Efficient processes",
+                feature1: "Everything in Efficiency Level",
+                feature2: "Automatic Fee Settlement",
+                feature3: "Doctor Portal",
+                feature4: "Surgery & Consultation Portal",
+                feature5: "Priority Support"
+            },
+            level3: {
+                title: "Financial Intelligence",
+                subtitle: "Revenue shielding + Inflation protection",
+                feature1: "Everything in Medical Management Level",
+                feature2: "Preventive Audit (Anti-Debits)",
+                feature3: "Automatic Agreement Manager",
+                feature4: "Real-Time ROI Reports",
+                feature5: "dedicated VIP Support"
             }
         },
         clients: {
@@ -292,13 +560,40 @@ const translations = {
             tab3: "Aplicações Digitais",
             tab4: "Sistema Integral",
             cta: "💬 Converse conosco",
+            details: "Ver Detalhes",
+            impact_title: "Impacto Mensurável",
             automation: {
                 title: "Módulos de Automação",
                 description: "Elimine tarefas repetitivas e propensas a erros. Nossos módulos automatizam processos administrativos complexos, reduzem tempos de gestão e liberam sua equipe para focar em tarefas de alto valor estratégico.",
                 feature1: "Automação de processos administrativos complexos",
                 feature2: "Redução de 90% no tempo de gestão manual",
                 feature3: "Eliminação de erros humanos em tarefas repetitivas",
-                feature4: "Integração perfeita com sistemas existentes"
+                feature4: "Integração perfeita com sistemas existentes",
+                hero: {
+                    tag: "Detalhe da Solução",
+                    title: "Automação de Processos Administrativos",
+                    subtitle: "Elimine tarefas repetitivas, reduza erros humanos e libere sua equipe para o que realmente importa: o atendimento ao paciente.",
+                    cta: "Solicitar Auditoria de Processos"
+                },
+                cards: {
+                    card1: {
+                        title: "🤖 Carga Automática de Faturas",
+                        description: "Nosso sistema processa faturas de fornecedores automaticamente, extraindo dados-chave e inserindo-os em seu ERP sem intervenção humana."
+                    },
+                    card2: {
+                        title: "📅 Gestão de Consultas por WhatsApp",
+                        description: "Confirmação, reagendamento e cancelamento automáticos. Reduz o absenteísmo em até 40% e preenche lacunas na agenda instantaneamente."
+                    },
+                    card3: {
+                        title: "💰 Liquidação de Honorários Médicos",
+                        description: "Calcula automaticamente o que corresponde a cada profissional segundo as regras de negócio de sua instituição, eliminando disputas e economizando dias de trabalho administrativo."
+                    }
+                },
+                stats: {
+                    stat1: { value: "90%", label: "Redução no tempo de carga de dados" },
+                    stat2: { value: "0%", label: "Erros de digitação no faturamento" },
+                    stat3: { value: "+25%", label: "Recuperação de horas-homem mensais" }
+                }
             },
             rag: {
                 title: "RAG Institucional",
@@ -306,7 +601,32 @@ const translations = {
                 feature1: "Busca instantânea em toda a documentação",
                 feature2: "Respostas contextualizadas com fontes verificadas",
                 feature3: "De horas de busca para segundos de resposta",
-                feature4: "Atualização contínua do conhecimento"
+                feature4: "Atualização contínua do conhecimento",
+                hero: {
+                    tag: "Detalhe da Solução",
+                    title: "RAG Institucional (Base de Conhecimento IA)",
+                    subtitle: "Sua instituição tem milhares de documentos e protocolos. O RAG permite 'conversar' com eles para obter respostas precisas em segundos.",
+                    cta: "Ver Demo ao Vivo"
+                },
+                cards: {
+                    card1: {
+                        title: "📚 Busca Semântica de Protocolos",
+                        description: "Médicos e enfermeiros podem perguntar 'Qual é o protocolo para pneumonia bacteriana?' e obter a resposta exata baseada na SUA documentação interna, não no Google."
+                    },
+                    card2: {
+                        title: "⚖️ Normas e Vademecum",
+                        description: "Acesso instantâneo a coberturas de convênios, vademecums atualizados e normas institucionais. Reduz erros de faturamento por desconhecimento de regras."
+                    },
+                    card3: {
+                        title: "🚀 Onboarding de Pessoal",
+                        description: "Acelera o treinamento de novos funcionários permitindo que resolvam suas dúvidas operacionais interagindo com a IA da instituição."
+                    }
+                },
+                stats: {
+                    stat1: { value: "95%", label: "Mais rápido encontrando informações" },
+                    stat2: { value: "100%", label: "Adesão a protocolos atualizados" },
+                    stat3: { value: "24/7", label: "Disponibilidade do conhecimento" }
+                }
             },
             apps: {
                 title: "Aplicações Digitais para o Hospital",
@@ -326,6 +646,31 @@ const translations = {
                 whatsapp: {
                     title: "💬 Chatbot de WhatsApp com IA",
                     description: "Chatbot inteligente que atende seus pacientes 24/7 como se fosse um humano. Ao contrário dos chatbots tradicionais com árvores de opções frustrantes, nosso sistema usa IA conversacional para fornecer atenção personalizada, gerenciar consultas e responder perguntas com qualidade e eficiência excepcionais."
+                },
+                hero: {
+                    tag: "Detalhe da Solução",
+                    title: "Aplicações Digitais (Apps)",
+                    subtitle: "Conectamos pacientes, médicos e administração em um ecossistema fluido. Apps nativos e web para modernizar a experiência do seu hospital.",
+                    cta: "Ver Catálogo de Apps"
+                },
+                cards: {
+                    card1: {
+                        title: "📱 Portal do Paciente",
+                        description: "Seus pacientes merecem acessibilidade. Agendamentos online, download de exames, histórico médico e notificações automáticas no bolso."
+                    },
+                    card2: {
+                        title: "🏥 Portal de Cirurgia",
+                        description: "Gestão integral do bloco cirúrgico. Agendamento de cirurgias, checklist de segurança, documentação pré-cirúrgica e monitoramento de salas cirúrgicas em tempo real."
+                    },
+                    card3: {
+                        title: "🩺 Portal do Médico",
+                        description: "Acesso remoto a prontuários, agenda de consultas, liquidação de honorários e comunicação direta com a administração."
+                    }
+                },
+                stats: {
+                    stat1: { value: "+40%", label: "Retenção de pacientes" },
+                    stat2: { value: "30%", label: "Redução de absenteísmo em consultas" },
+                    stat3: { value: "100%", label: "Rastreabilidade em cirurgias" }
                 }
             },
             system: {
@@ -334,7 +679,64 @@ const translations = {
                 feature1: "Integração total de áreas operacionais e clínicas",
                 feature2: "Eliminação de vazamentos no faturamento",
                 feature3: "Redução drástica de glosas de convênios",
-                feature4: "ROI mensurável e transparente"
+                feature4: "ROI mensurável e transparente",
+                hero: {
+                    tag: "Detalhe da Solução",
+                    title: "Sistema Integral (All-in-One)",
+                    subtitle: "A transformação digital completa sob o mesmo teto. Centralize, automatize e otimize cada aspecto de sua instituição de saúde.",
+                    cta: "Consultar Plano Integral"
+                },
+                cards: {
+                    card1: {
+                        title: "📡 Interoperabilidade Total",
+                        description: "Conecte seu HIS, LIS, RIS e PACS em uma única plataforma unificada. Elimine os silos de informações e tenha uma visão 360 do paciente."
+                    },
+                    card2: {
+                        title: "📊 Business Intelligence (BI)",
+                        description: "Painéis de controle em tempo real para a direção médica e administrativa. Tome decisões baseadas em dados reais de ocupação, faturamento e custos."
+                    },
+                    card3: {
+                        title: "🛡️ Segurança e Auditoria",
+                        description: "Rastreabilidade completa de cada ação no sistema. Conformidade com normas de privacidade de dados de saúde e auditoria preventiva de faturamento."
+                    }
+                },
+                stats: {
+                    stat1: { value: "360°", label: "Visão operacional" },
+                    stat2: { value: "+15%", label: "Aumento no faturamento líquido" },
+                    stat3: { value: "Total", label: "Controle administrativo" }
+                }
+            }
+        },
+        packages: {
+            tag: "Nossos Planos",
+            title: "Escalando sua Inteligência Operacional",
+            subtitle: "Soluções adaptadas a cada estágio de crescimento da sua instituição.",
+            cta: "Consultar Preço",
+            level1: {
+                title: "Eficiência Operacional",
+                subtitle: "Pacientes felizes + Administração ágil",
+                feature1: "Chatbot Inteligente IA 24/7",
+                feature2: "Portal do Paciente (App)",
+                feature3: "Automação de Carga de Faturas",
+                feature4: "Lembretes de Consultas WhatsApp"
+            },
+            level2: {
+                title: "Gestão Médica 360",
+                subtitle: "Médicos felizes + Processos eficientes",
+                feature1: "Tudo do Nível Eficiência",
+                feature2: "Liquidação Automática de Honorários",
+                feature3: "Portal do Médico",
+                feature4: "Portal de Cirurgia e Consultas",
+                feature5: "Suporte Prioritário"
+            },
+            level3: {
+                title: "Inteligência Financeira",
+                subtitle: "Blindagem de receitas + Proteção contra inflação",
+                feature1: "Tudo do Nível Gestão Médica",
+                feature2: "Auditoria Preventiva (Anti-Débitos)",
+                feature3: "Gestor Automático de Convênios",
+                feature4: "Relatórios de ROI em Tempo Real",
+                feature5: "Suporte VIP Dedicado"
             }
         },
         clients: {
